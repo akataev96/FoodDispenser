@@ -1,0 +1,10 @@
+C:\Users\Andrey\source\repos\WF_Eatstuff\WF_Eatstuff\bin\Release\WF_Eatstuff.exe.config
+C:\Users\Andrey\source\repos\WF_Eatstuff\WF_Eatstuff\bin\Release\WF_Eatstuff.exe
+C:\Users\Andrey\source\repos\WF_Eatstuff\WF_Eatstuff\bin\Release\WF_Eatstuff.pdb
+C:\Users\Andrey\source\repos\WF_Eatstuff\WF_Eatstuff\obj\Release\FoodDispenser.csprojResolveAssemblyReference.cache
+C:\Users\Andrey\source\repos\WF_Eatstuff\WF_Eatstuff\obj\Release\WF_Eatstuff.MainForm.resources
+C:\Users\Andrey\source\repos\WF_Eatstuff\WF_Eatstuff\obj\Release\WF_Eatstuff.Properties.Resources.resources
+C:\Users\Andrey\source\repos\WF_Eatstuff\WF_Eatstuff\obj\Release\FoodDispenser.csproj.GenerateResource.cache
+C:\Users\Andrey\source\repos\WF_Eatstuff\WF_Eatstuff\obj\Release\FoodDispenser.csproj.CoreCompileInputs.cache
+C:\Users\Andrey\source\repos\WF_Eatstuff\WF_Eatstuff\obj\Release\WF_Eatstuff.exe
+C:\Users\Andrey\source\repos\WF_Eatstuff\WF_Eatstuff\obj\Release\WF_Eatstuff.pdb

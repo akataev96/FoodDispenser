@@ -1,0 +1,14 @@
+C:\Users\Andrey\source\repos\WF_Eatstuff\.vs\FoodDispenser\lut\0\b\WF_Eatstuff.exe.config
+C:\Users\Andrey\source\repos\WF_Eatstuff\.vs\FoodDispenser\lut\0\b\WF_Eatstuff.exe
+C:\Users\Andrey\source\repos\WF_Eatstuff\.vs\FoodDispenser\lut\0\b\WF_Eatstuff.pdb
+C:\Users\Andrey\source\repos\WF_Eatstuff\.vs\FoodDispenser\lut\0\i\FoodDispenser\Debug\FoodDispenser.csprojResolveAssemblyReference.cache
+C:\Users\Andrey\source\repos\WF_Eatstuff\.vs\FoodDispenser\lut\0\i\FoodDispenser\Debug\WF_Eatstuff.MainForm.resources
+C:\Users\Andrey\source\repos\WF_Eatstuff\.vs\FoodDispenser\lut\0\i\FoodDispenser\Debug\WF_Eatstuff.Properties.Resources.resources
+C:\Users\Andrey\source\repos\WF_Eatstuff\.vs\FoodDispenser\lut\0\i\FoodDispenser\Debug\FoodDispenser.csproj.GenerateResource.cache
+C:\Users\Andrey\source\repos\WF_Eatstuff\.vs\FoodDispenser\lut\0\i\FoodDispenser\Debug\FoodDispenser.csproj.CoreCompileInputs.cache
+C:\Users\Andrey\source\repos\WF_Eatstuff\.vs\FoodDispenser\lut\0\i\FoodDispenser\Debug\FoodDispenser.csproj.CopyComplete
+C:\Users\Andrey\source\repos\WF_Eatstuff\.vs\FoodDispenser\lut\0\i\FoodDispenser\Debug\WF_Eatstuff.exe
+C:\Users\Andrey\source\repos\WF_Eatstuff\.vs\FoodDispenser\lut\0\i\FoodDispenser\Debug\WF_Eatstuff.pdb
+C:\Users\Andrey\source\repos\WF_Eatstuff\.vs\FoodDispenser\lut\0\b\WF_Eatstuff\bin\Debug\WF_Eatstuff.exe.config
+C:\Users\Andrey\source\repos\WF_Eatstuff\.vs\FoodDispenser\lut\0\b\WF_Eatstuff\bin\Debug\WF_Eatstuff.exe
+C:\Users\Andrey\source\repos\WF_Eatstuff\.vs\FoodDispenser\lut\0\b\WF_Eatstuff\bin\Debug\WF_Eatstuff.pdb

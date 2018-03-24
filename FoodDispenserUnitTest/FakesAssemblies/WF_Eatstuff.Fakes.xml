@@ -1,0 +1,1589 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WF_Eatstuff.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.QualityTools.Testing.Fakes.Delegates.WF_EatstuffDelegates">
+            <summary>Содержит пользовательские делегаты для заглушек и оболочек совместимости WF_Eatstuff</summary>
+        </member>
+        <member name="T:WF_Eatstuff.Fakes.ShimMainForm">
+            <summary>Тип оболочки совместимости для WF_Eatstuff.MainForm</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.ShimMainForm.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.ShimMainForm.#ctor(WF_Eatstuff.MainForm)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="T:WF_Eatstuff.Fakes.ShimMainForm.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.AllInstances.DisposeBoolean">
+            <summary>Задает оболочка совместимости MainForm.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.AllInstances.FinalPriceSetInt32">
+            <summary>Задает оболочка совместимости MainForm.set_FinalPrice(Int32 value)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.AllInstances.InitializeComponent">
+            <summary>Задает оболочка совместимости MainForm.InitializeComponent()</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.AllInstances.ShowListListOfString">
+            <summary>Задает оболочка совместимости MainForm.ShowList(List`1&lt;String&gt; Items)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.AllInstances.btnGiveOrder_ClickObjectEventArgs">
+            <summary>Задает оболочка совместимости MainForm.btnGiveOrder_Click(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.AllInstances.btnRenewPrice_ClickObjectEventArgs">
+            <summary>Задает оболочка совместимости MainForm.btnRenewPrice_Click(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.AllInstances.chboxComplex_CheckedChangedObjectEventArgs">
+            <summary>Задает оболочка совместимости MainForm.chboxComplex_CheckedChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.AllInstances.chboxDrinkMilk_CheckedChangedObjectEventArgs">
+            <summary>Задает оболочка совместимости MainForm.chboxDrinkMilk_CheckedChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.AllInstances.chboxDrinkSyrup_CheckedChangedObjectEventArgs">
+            <summary>Задает оболочка совместимости MainForm.chboxDrinkSyrup_CheckedChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.AllInstances.chboxFoodCheese_CheckedChangedObjectEventArgs">
+            <summary>Задает оболочка совместимости MainForm.chboxFoodCheese_CheckedChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.AllInstances.chboxFoodHam_CheckedChangedObjectEventArgs">
+            <summary>Задает оболочка совместимости MainForm.chboxFoodHam_CheckedChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.AllInstances.chboxFoodJam_CheckedChangedObjectEventArgs">
+            <summary>Задает оболочка совместимости MainForm.chboxFoodJam_CheckedChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.AllInstances.numDrinkSugarCount_ValueChangedObjectEventArgs">
+            <summary>Задает оболочка совместимости MainForm.numDrinkSugarCount_ValueChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.AllInstances.rbDrinkBlacktea_CheckedChangedObjectEventArgs">
+            <summary>Задает оболочка совместимости MainForm.rbDrinkBlacktea_CheckedChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.AllInstances.rbDrinkEspresso_CheckedChangedObjectEventArgs">
+            <summary>Задает оболочка совместимости MainForm.rbDrinkEspresso_CheckedChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.AllInstances.rbDrinkGreentea_CheckedChangedObjectEventArgs">
+            <summary>Задает оболочка совместимости MainForm.rbDrinkGreentea_CheckedChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.AllInstances.rbDrinkWater_CheckedChangedObjectEventArgs">
+            <summary>Задает оболочка совместимости MainForm.rbDrinkWater_CheckedChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.AllInstances.rbFoodBread_CheckedChangedObjectEventArgs">
+            <summary>Задает оболочка совместимости MainForm.rbFoodBread_CheckedChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.AllInstances.rbFoodBun_CheckedChangedObjectEventArgs">
+            <summary>Задает оболочка совместимости MainForm.rbFoodBun_CheckedChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.AllInstances.rbFoodCookie_CheckedChangedObjectEventArgs">
+            <summary>Задает оболочка совместимости MainForm.rbFoodCookie_CheckedChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.AllInstances.rbFoodCrisps_CheckedChangedObjectEventArgs">
+            <summary>Задает оболочка совместимости MainForm.rbFoodCrisps_CheckedChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.ShimMainForm.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.ShimMainForm.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.ShimMainForm.Bind(System.ComponentModel.IComponent)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.ShimMainForm.Bind(System.ComponentModel.ISynchronizeInvoke)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.ShimMainForm.Bind(System.Windows.Forms.IBindableComponent)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.ShimMainForm.Bind(System.Windows.Forms.IContainerControl)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.ShimMainForm.Bind(System.Windows.Forms.IDropTarget)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.ShimMainForm.Bind(System.Windows.Forms.IWin32Window)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.ShimMainForm.Bind(WF_Eatstuff.IView)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.ShimMainForm.Bind(System.IDisposable)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.Constructor">
+            <summary>Задает оболочка совместимости MainForm.MainForm()</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.DisposeBoolean">
+            <summary>Задает оболочка совместимости MainForm.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.FinalPriceSetInt32">
+            <summary>Задает оболочка совместимости MainForm.set_FinalPrice(Int32 value)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.InitializeComponent">
+            <summary>Задает оболочка совместимости MainForm.InitializeComponent()</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.ShowListListOfString">
+            <summary>Задает оболочка совместимости MainForm.ShowList(List`1&lt;String&gt; Items)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.btnGiveOrder_ClickObjectEventArgs">
+            <summary>Задает оболочка совместимости MainForm.btnGiveOrder_Click(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.btnRenewPrice_ClickObjectEventArgs">
+            <summary>Задает оболочка совместимости MainForm.btnRenewPrice_Click(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.chboxComplex_CheckedChangedObjectEventArgs">
+            <summary>Задает оболочка совместимости MainForm.chboxComplex_CheckedChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.chboxDrinkMilk_CheckedChangedObjectEventArgs">
+            <summary>Задает оболочка совместимости MainForm.chboxDrinkMilk_CheckedChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.chboxDrinkSyrup_CheckedChangedObjectEventArgs">
+            <summary>Задает оболочка совместимости MainForm.chboxDrinkSyrup_CheckedChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.chboxFoodCheese_CheckedChangedObjectEventArgs">
+            <summary>Задает оболочка совместимости MainForm.chboxFoodCheese_CheckedChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.chboxFoodHam_CheckedChangedObjectEventArgs">
+            <summary>Задает оболочка совместимости MainForm.chboxFoodHam_CheckedChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.chboxFoodJam_CheckedChangedObjectEventArgs">
+            <summary>Задает оболочка совместимости MainForm.chboxFoodJam_CheckedChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.numDrinkSugarCount_ValueChangedObjectEventArgs">
+            <summary>Задает оболочка совместимости MainForm.numDrinkSugarCount_ValueChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.rbDrinkBlacktea_CheckedChangedObjectEventArgs">
+            <summary>Задает оболочка совместимости MainForm.rbDrinkBlacktea_CheckedChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.rbDrinkEspresso_CheckedChangedObjectEventArgs">
+            <summary>Задает оболочка совместимости MainForm.rbDrinkEspresso_CheckedChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.rbDrinkGreentea_CheckedChangedObjectEventArgs">
+            <summary>Задает оболочка совместимости MainForm.rbDrinkGreentea_CheckedChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.rbDrinkWater_CheckedChangedObjectEventArgs">
+            <summary>Задает оболочка совместимости MainForm.rbDrinkWater_CheckedChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.rbFoodBread_CheckedChangedObjectEventArgs">
+            <summary>Задает оболочка совместимости MainForm.rbFoodBread_CheckedChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.rbFoodBun_CheckedChangedObjectEventArgs">
+            <summary>Задает оболочка совместимости MainForm.rbFoodBun_CheckedChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.rbFoodCookie_CheckedChangedObjectEventArgs">
+            <summary>Задает оболочка совместимости MainForm.rbFoodCookie_CheckedChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimMainForm.rbFoodCrisps_CheckedChangedObjectEventArgs">
+            <summary>Задает оболочка совместимости MainForm.rbFoodCrisps_CheckedChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="T:WF_Eatstuff.Fakes.ShimOrder">
+            <summary>Тип оболочки совместимости для WF_Eatstuff.Order</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.ShimOrder.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.ShimOrder.#ctor(WF_Eatstuff.Order)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimOrder.AdditionGet">
+            <summary>Задает оболочка совместимости Order.get_Addition()</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimOrder.AdditionSetDictionaryOfStringInt32">
+            <summary>Задает оболочка совместимости Order.set_Addition(Dictionary`2&lt;String,Int32&gt; value)</summary>
+        </member>
+        <member name="T:WF_Eatstuff.Fakes.ShimOrder.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimOrder.AllInstances.AdditionGet">
+            <summary>Задает оболочка совместимости Order.get_Addition()</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimOrder.AllInstances.AdditionSetDictionaryOfStringInt32">
+            <summary>Задает оболочка совместимости Order.set_Addition(Dictionary`2&lt;String,Int32&gt; value)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimOrder.AllInstances.ComplexGet">
+            <summary>Задает оболочка совместимости Order.get_Complex()</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimOrder.AllInstances.ComplexSetBoolean">
+            <summary>Задает оболочка совместимости Order.set_Complex(Boolean value)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimOrder.AllInstances.DrinkGet">
+            <summary>Задает оболочка совместимости Order.get_Drink()</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimOrder.AllInstances.DrinkSetString">
+            <summary>Задает оболочка совместимости Order.set_Drink(String value)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimOrder.AllInstances.FoodGet">
+            <summary>Задает оболочка совместимости Order.get_Food()</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimOrder.AllInstances.FoodSetString">
+            <summary>Задает оболочка совместимости Order.set_Food(String value)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.ShimOrder.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.ShimOrder.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimOrder.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimOrder.ComplexGet">
+            <summary>Задает оболочка совместимости Order.get_Complex()</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimOrder.ComplexSetBoolean">
+            <summary>Задает оболочка совместимости Order.set_Complex(Boolean value)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimOrder.Constructor">
+            <summary>Задает оболочка совместимости Order.Order()</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimOrder.DrinkGet">
+            <summary>Задает оболочка совместимости Order.get_Drink()</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimOrder.DrinkSetString">
+            <summary>Задает оболочка совместимости Order.set_Drink(String value)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimOrder.FoodGet">
+            <summary>Задает оболочка совместимости Order.get_Food()</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.ShimOrder.FoodSetString">
+            <summary>Задает оболочка совместимости Order.set_Food(String value)</summary>
+        </member>
+        <member name="T:WF_Eatstuff.Fakes.StubIView">
+            <summary>Тип заглушки WF_Eatstuff.IView</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubIView.#ctor">
+            <summary>Инициализирует новый экземпляр type StubIView</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubIView.WF_Eatstuff#IView#FinalPrice">
+            <summary>Задает stub IView.set_FinalPrice(Int32 value)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubIView.FinalPriceSetInt32">
+            <summary>Задает stub IView.set_FinalPrice(Int32 value)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubIView.ShowListListOfString">
+            <summary>Задает stub IView.ShowList(List`1&lt;String&gt; Items)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubIView.WF_Eatstuff#IView#ShowList(System.Collections.Generic.List{System.String})">
+            <summary>Задает заглушка IView.ShowList(List`1&lt;String&gt; Items)</summary>
+        </member>
+        <member name="T:WF_Eatstuff.Fakes.StubMainForm">
+            <summary>Тип заглушки WF_Eatstuff.MainForm</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.AdjustFormScrollbars(System.Boolean)">
+            <summary>Задает заглушка Form.AdjustFormScrollbars(Boolean displayScrollbars)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.AdjustFormScrollbarsBoolean">
+            <summary>Задает stub Form.AdjustFormScrollbars(Boolean displayScrollbars)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.AllowDrop">
+            <summary>Задает stub Control.get_AllowDrop()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.AllowDropGet">
+            <summary>Задает stub Control.get_AllowDrop()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.AllowDropSetBoolean">
+            <summary>Задает stub Control.set_AllowDrop(Boolean value)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.Anchor">
+            <summary>Задает stub Control.get_Anchor()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.AnchorGet">
+            <summary>Задает stub Control.get_Anchor()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.AnchorSetAnchorStyles">
+            <summary>Задает stub Control.set_Anchor(AnchorStyles value)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.AttachBackingFieldToAllowDrop">
+            <summary>Присоединение делегатов для эмуляции StubMainForm.AllowDrop как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.AttachBackingFieldToAnchor">
+            <summary>Присоединение делегатов для эмуляции StubMainForm.Anchor как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.AttachBackingFieldToAutoScaleBaseSize">
+            <summary>Присоединение делегатов для эмуляции StubMainForm.AutoScaleBaseSize как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.AttachBackingFieldToAutoScroll">
+            <summary>Присоединение делегатов для эмуляции StubMainForm.AutoScroll как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.AttachBackingFieldToAutoScrollOffset">
+            <summary>Присоединение делегатов для эмуляции StubMainForm.AutoScrollOffset как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.AttachBackingFieldToAutoSize">
+            <summary>Присоединение делегатов для эмуляции StubMainForm.AutoSize как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.AttachBackingFieldToAutoValidate">
+            <summary>Присоединение делегатов для эмуляции StubMainForm.AutoValidate как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.AttachBackingFieldToBackColor">
+            <summary>Присоединение делегатов для эмуляции StubMainForm.BackColor как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.AttachBackingFieldToBackgroundImage">
+            <summary>Присоединение делегатов для эмуляции StubMainForm.BackgroundImage как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.AttachBackingFieldToBackgroundImageLayout">
+            <summary>Присоединение делегатов для эмуляции StubMainForm.BackgroundImageLayout как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.AttachBackingFieldToBindingContext">
+            <summary>Присоединение делегатов для эмуляции StubMainForm.BindingContext как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.AttachBackingFieldToContextMenu">
+            <summary>Присоединение делегатов для эмуляции StubMainForm.ContextMenu как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.AttachBackingFieldToContextMenuStrip">
+            <summary>Присоединение делегатов для эмуляции StubMainForm.ContextMenuStrip как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.AttachBackingFieldToCursor">
+            <summary>Присоединение делегатов для эмуляции StubMainForm.Cursor как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.AttachBackingFieldToDock">
+            <summary>Присоединение делегатов для эмуляции StubMainForm.Dock как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.AttachBackingFieldToDoubleBuffered">
+            <summary>Присоединение делегатов для эмуляции StubMainForm.DoubleBuffered как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.AttachBackingFieldToFont">
+            <summary>Присоединение делегатов для эмуляции StubMainForm.Font как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.AttachBackingFieldToForeColor">
+            <summary>Присоединение делегатов для эмуляции StubMainForm.ForeColor как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.AttachBackingFieldToImeModeBase">
+            <summary>Присоединение делегатов для эмуляции StubMainForm.ImeModeBase как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.AttachBackingFieldToMaximumSize">
+            <summary>Присоединение делегатов для эмуляции StubMainForm.MaximumSize как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.AttachBackingFieldToMinimumSize">
+            <summary>Присоединение делегатов для эмуляции StubMainForm.MinimumSize как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.AttachBackingFieldToRightToLeft">
+            <summary>Присоединение делегатов для эмуляции StubMainForm.RightToLeft как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.AttachBackingFieldToRightToLeftLayout">
+            <summary>Присоединение делегатов для эмуляции StubMainForm.RightToLeftLayout как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.AttachBackingFieldToSite">
+            <summary>Присоединение делегатов для эмуляции StubMainForm.Site как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.AttachBackingFieldToText">
+            <summary>Присоединение делегатов для эмуляции StubMainForm.Text как свойства с резервным полем.</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.AutoScaleBaseSize">
+            <summary>Задает stub Form.get_AutoScaleBaseSize()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.AutoScaleBaseSizeGet">
+            <summary>Задает stub Form.get_AutoScaleBaseSize()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.AutoScaleBaseSizeSetSize">
+            <summary>Задает stub Form.set_AutoScaleBaseSize(Size value)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.AutoScroll">
+            <summary>Задает stub Form.get_AutoScroll()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.AutoScrollGet">
+            <summary>Задает stub Form.get_AutoScroll()</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.AutoScrollOffset">
+            <summary>Задает stub Control.get_AutoScrollOffset()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.AutoScrollOffsetGet">
+            <summary>Задает stub Control.get_AutoScrollOffset()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.AutoScrollOffsetSetPoint">
+            <summary>Задает stub Control.set_AutoScrollOffset(Point value)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.AutoScrollSetBoolean">
+            <summary>Задает stub Form.set_AutoScroll(Boolean value)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.AutoSize">
+            <summary>Задает stub Form.get_AutoSize()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.AutoSizeGet">
+            <summary>Задает stub Form.get_AutoSize()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.AutoSizeSetBoolean">
+            <summary>Задает stub Form.set_AutoSize(Boolean value)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.AutoValidate">
+            <summary>Задает stub Form.get_AutoValidate()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.AutoValidateGet">
+            <summary>Задает stub Form.get_AutoValidate()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.AutoValidateSetAutoValidate">
+            <summary>Задает stub Form.set_AutoValidate(AutoValidate value)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.BackColor">
+            <summary>Задает stub Form.get_BackColor()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.BackColorGet">
+            <summary>Задает stub Form.get_BackColor()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.BackColorSetColor">
+            <summary>Задает stub Form.set_BackColor(Color value)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.BackgroundImage">
+            <summary>Задает stub Control.get_BackgroundImage()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.BackgroundImageGet">
+            <summary>Задает stub Control.get_BackgroundImage()</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.BackgroundImageLayout">
+            <summary>Задает stub Control.get_BackgroundImageLayout()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.BackgroundImageLayoutGet">
+            <summary>Задает stub Control.get_BackgroundImageLayout()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.BackgroundImageLayoutSetImageLayout">
+            <summary>Задает stub Control.set_BackgroundImageLayout(ImageLayout value)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.BackgroundImageSetImage">
+            <summary>Задает stub Control.set_BackgroundImage(Image value)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.BindingContext">
+            <summary>Задает stub ContainerControl.get_BindingContext()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.BindingContextGet">
+            <summary>Задает stub ContainerControl.get_BindingContext()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.BindingContextSetBindingContext">
+            <summary>Задает stub ContainerControl.set_BindingContext(BindingContext value)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.CanEnableIme">
+            <summary>Задает stub ContainerControl.get_CanEnableIme()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.CanEnableImeGet">
+            <summary>Задает stub ContainerControl.get_CanEnableIme()</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.CanRaiseEvents">
+            <summary>Задает stub Control.get_CanRaiseEvents()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.CanRaiseEventsGet">
+            <summary>Задает stub Control.get_CanRaiseEvents()</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.ContextMenu">
+            <summary>Задает stub Control.get_ContextMenu()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.ContextMenuGet">
+            <summary>Задает stub Control.get_ContextMenu()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.ContextMenuSetContextMenu">
+            <summary>Задает stub Control.set_ContextMenu(ContextMenu value)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.ContextMenuStrip">
+            <summary>Задает stub Control.get_ContextMenuStrip()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.ContextMenuStripGet">
+            <summary>Задает stub Control.get_ContextMenuStrip()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.ContextMenuStripSetContextMenuStrip">
+            <summary>Задает stub Control.set_ContextMenuStrip(ContextMenuStrip value)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.CreateAccessibilityInstance">
+            <summary>Задает заглушка Control.CreateAccessibilityInstance()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.CreateAccessibilityInstance01">
+            <summary>Задает stub Control.CreateAccessibilityInstance()</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.CreateControlsInstance">
+            <summary>Задает заглушка Form.CreateControlsInstance()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.CreateControlsInstance01">
+            <summary>Задает stub Form.CreateControlsInstance()</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.CreateHandle">
+            <summary>Задает заглушка Form.CreateHandle()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.CreateHandle01">
+            <summary>Задает stub Form.CreateHandle()</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.CreateParams">
+            <summary>Задает stub Form.get_CreateParams()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.CreateParamsGet">
+            <summary>Задает stub Form.get_CreateParams()</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.Cursor">
+            <summary>Задает stub Control.get_Cursor()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.CursorGet">
+            <summary>Задает stub Control.get_Cursor()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.CursorSetCursor">
+            <summary>Задает stub Control.set_Cursor(Cursor value)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.DefWndProc(System.Windows.Forms.Message@)">
+            <summary>Задает заглушка Form.DefWndProc(Message&amp; m)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.DefWndProcMessageRef">
+            <summary>Задает stub Form.DefWndProc(Message&amp; m)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.DefaultCursor">
+            <summary>Задает stub Control.get_DefaultCursor()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.DefaultCursorGet">
+            <summary>Задает stub Control.get_DefaultCursor()</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.DefaultImeMode">
+            <summary>Задает stub Form.get_DefaultImeMode()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.DefaultImeModeGet">
+            <summary>Задает stub Form.get_DefaultImeMode()</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.DefaultMargin">
+            <summary>Задает stub Control.get_DefaultMargin()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.DefaultMarginGet">
+            <summary>Задает stub Control.get_DefaultMargin()</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.DefaultMaximumSize">
+            <summary>Задает stub Control.get_DefaultMaximumSize()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.DefaultMaximumSizeGet">
+            <summary>Задает stub Control.get_DefaultMaximumSize()</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.DefaultMinimumSize">
+            <summary>Задает stub Control.get_DefaultMinimumSize()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.DefaultMinimumSizeGet">
+            <summary>Задает stub Control.get_DefaultMinimumSize()</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.DefaultPadding">
+            <summary>Задает stub Control.get_DefaultPadding()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.DefaultPaddingGet">
+            <summary>Задает stub Control.get_DefaultPadding()</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.DefaultSize">
+            <summary>Задает stub Form.get_DefaultSize()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.DefaultSizeGet">
+            <summary>Задает stub Form.get_DefaultSize()</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.DestroyHandle">
+            <summary>Задает заглушка Control.DestroyHandle()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.DestroyHandle01">
+            <summary>Задает stub Control.DestroyHandle()</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.DisplayRectangle">
+            <summary>Задает stub ScrollableControl.get_DisplayRectangle()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.DisplayRectangleGet">
+            <summary>Задает stub ScrollableControl.get_DisplayRectangle()</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.Dispose(System.Boolean)">
+            <summary>Задает заглушка MainForm.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.DisposeBoolean">
+            <summary>Задает stub MainForm.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.Dock">
+            <summary>Задает stub Control.get_Dock()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.DockGet">
+            <summary>Задает stub Control.get_Dock()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.DockSetDockStyle">
+            <summary>Задает stub Control.set_Dock(DockStyle value)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.DoubleBuffered">
+            <summary>Задает stub Control.get_DoubleBuffered()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.DoubleBufferedGet">
+            <summary>Задает stub Control.get_DoubleBuffered()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.DoubleBufferedSetBoolean">
+            <summary>Задает stub Control.set_DoubleBuffered(Boolean value)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.Focused">
+            <summary>Задает stub Control.get_Focused()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.FocusedGet">
+            <summary>Задает stub Control.get_Focused()</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.Font">
+            <summary>Задает stub Control.get_Font()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.FontGet">
+            <summary>Задает stub Control.get_Font()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.FontSetFont">
+            <summary>Задает stub Control.set_Font(Font value)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.ForeColor">
+            <summary>Задает stub Control.get_ForeColor()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.ForeColorGet">
+            <summary>Задает stub Control.get_ForeColor()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.ForeColorSetColor">
+            <summary>Задает stub Control.set_ForeColor(Color value)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.GetAccessibilityObjectById(System.Int32)">
+            <summary>Задает заглушка Control.GetAccessibilityObjectById(Int32 objectId)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.GetAccessibilityObjectByIdInt32">
+            <summary>Задает stub Control.GetAccessibilityObjectById(Int32 objectId)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.GetPreferredSize(System.Drawing.Size)">
+            <summary>Задает заглушка Control.GetPreferredSize(Size proposedSize)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.GetPreferredSizeSize">
+            <summary>Задает stub Control.GetPreferredSize(Size proposedSize)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.GetScaledBounds(System.Drawing.Rectangle,System.Drawing.SizeF,System.Windows.Forms.BoundsSpecified)">
+            <summary>Задает заглушка Form.GetScaledBounds(Rectangle bounds, SizeF factor, BoundsSpecified specified)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.GetScaledBoundsRectangleSizeFBoundsSpecified">
+            <summary>Задает stub Form.GetScaledBounds(Rectangle bounds, SizeF factor, BoundsSpecified specified)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.GetService(System.Type)">
+            <summary>Задает заглушка Component.GetService(Type service)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.GetServiceType">
+            <summary>Задает stub Component.GetService(Type service)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.ImeModeBase">
+            <summary>Задает stub Control.get_ImeModeBase()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.ImeModeBaseGet">
+            <summary>Задает stub Control.get_ImeModeBase()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.ImeModeBaseSetImeMode">
+            <summary>Задает stub Control.set_ImeModeBase(ImeMode value)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.InitLayout">
+            <summary>Задает заглушка Control.InitLayout()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.InitLayout01">
+            <summary>Задает stub Control.InitLayout()</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubMainForm</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.IsInputChar(System.Char)">
+            <summary>Задает заглушка Control.IsInputChar(Char charCode)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.IsInputCharChar">
+            <summary>Задает stub Control.IsInputChar(Char charCode)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.IsInputKey(System.Windows.Forms.Keys)">
+            <summary>Задает заглушка Control.IsInputKey(Keys keyData)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.IsInputKeyKeys">
+            <summary>Задает stub Control.IsInputKey(Keys keyData)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.LayoutEngine">
+            <summary>Задает stub Control.get_LayoutEngine()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.LayoutEngineGet">
+            <summary>Задает stub Control.get_LayoutEngine()</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.MaximumSize">
+            <summary>Задает stub Form.get_MaximumSize()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.MaximumSizeGet">
+            <summary>Задает stub Form.get_MaximumSize()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.MaximumSizeSetSize">
+            <summary>Задает stub Form.set_MaximumSize(Size value)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.MinimumSize">
+            <summary>Задает stub Form.get_MinimumSize()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.MinimumSizeGet">
+            <summary>Задает stub Form.get_MinimumSize()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.MinimumSizeSetSize">
+            <summary>Задает stub Form.set_MinimumSize(Size value)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.NotifyInvalidate(System.Drawing.Rectangle)">
+            <summary>Задает заглушка Control.NotifyInvalidate(Rectangle invalidatedArea)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.NotifyInvalidateRectangle">
+            <summary>Задает stub Control.NotifyInvalidate(Rectangle invalidatedArea)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnActivated(System.EventArgs)">
+            <summary>Задает заглушка Form.OnActivated(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnActivatedEventArgs">
+            <summary>Задает stub Form.OnActivated(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnAutoSizeChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnAutoSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnAutoSizeChangedEventArgs">
+            <summary>Задает stub Control.OnAutoSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnAutoValidateChanged(System.EventArgs)">
+            <summary>Задает заглушка ContainerControl.OnAutoValidateChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnAutoValidateChangedEventArgs">
+            <summary>Задает stub ContainerControl.OnAutoValidateChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnBackColorChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnBackColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnBackColorChangedEventArgs">
+            <summary>Задает stub Control.OnBackColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnBackgroundImageChanged(System.EventArgs)">
+            <summary>Задает заглушка Form.OnBackgroundImageChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnBackgroundImageChangedEventArgs">
+            <summary>Задает stub Form.OnBackgroundImageChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnBackgroundImageLayoutChanged(System.EventArgs)">
+            <summary>Задает заглушка Form.OnBackgroundImageLayoutChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnBackgroundImageLayoutChangedEventArgs">
+            <summary>Задает stub Form.OnBackgroundImageLayoutChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnBindingContextChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnBindingContextChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnBindingContextChangedEventArgs">
+            <summary>Задает stub Control.OnBindingContextChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnCausesValidationChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnCausesValidationChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnCausesValidationChangedEventArgs">
+            <summary>Задает stub Control.OnCausesValidationChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnChangeUICues(System.Windows.Forms.UICuesEventArgs)">
+            <summary>Задает заглушка Control.OnChangeUICues(UICuesEventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnChangeUICuesUICuesEventArgs">
+            <summary>Задает stub Control.OnChangeUICues(UICuesEventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnClick(System.EventArgs)">
+            <summary>Задает заглушка Control.OnClick(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnClickEventArgs">
+            <summary>Задает stub Control.OnClick(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnClientSizeChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnClientSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnClientSizeChangedEventArgs">
+            <summary>Задает stub Control.OnClientSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnClosed(System.EventArgs)">
+            <summary>Задает заглушка Form.OnClosed(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnClosedEventArgs">
+            <summary>Задает stub Form.OnClosed(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnClosing(System.ComponentModel.CancelEventArgs)">
+            <summary>Задает заглушка Form.OnClosing(CancelEventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnClosingCancelEventArgs">
+            <summary>Задает stub Form.OnClosing(CancelEventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnContextMenuChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnContextMenuChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnContextMenuChangedEventArgs">
+            <summary>Задает stub Control.OnContextMenuChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnContextMenuStripChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnContextMenuStripChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnContextMenuStripChangedEventArgs">
+            <summary>Задает stub Control.OnContextMenuStripChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnControlAdded(System.Windows.Forms.ControlEventArgs)">
+            <summary>Задает заглушка Control.OnControlAdded(ControlEventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnControlAddedControlEventArgs">
+            <summary>Задает stub Control.OnControlAdded(ControlEventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnControlRemoved(System.Windows.Forms.ControlEventArgs)">
+            <summary>Задает заглушка Control.OnControlRemoved(ControlEventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnControlRemovedControlEventArgs">
+            <summary>Задает stub Control.OnControlRemoved(ControlEventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnCreateControl">
+            <summary>Задает заглушка Form.OnCreateControl()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnCreateControl01">
+            <summary>Задает stub Form.OnCreateControl()</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnCursorChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnCursorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnCursorChangedEventArgs">
+            <summary>Задает stub Control.OnCursorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnDeactivate(System.EventArgs)">
+            <summary>Задает заглушка Form.OnDeactivate(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnDeactivateEventArgs">
+            <summary>Задает stub Form.OnDeactivate(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnDockChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnDockChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnDockChangedEventArgs">
+            <summary>Задает stub Control.OnDockChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnDoubleClick(System.EventArgs)">
+            <summary>Задает заглушка Control.OnDoubleClick(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnDoubleClickEventArgs">
+            <summary>Задает stub Control.OnDoubleClick(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnDragDrop(System.Windows.Forms.DragEventArgs)">
+            <summary>Задает заглушка Control.OnDragDrop(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnDragDropDragEventArgs">
+            <summary>Задает stub Control.OnDragDrop(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnDragEnter(System.Windows.Forms.DragEventArgs)">
+            <summary>Задает заглушка Control.OnDragEnter(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnDragEnterDragEventArgs">
+            <summary>Задает stub Control.OnDragEnter(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnDragLeave(System.EventArgs)">
+            <summary>Задает заглушка Control.OnDragLeave(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnDragLeaveEventArgs">
+            <summary>Задает stub Control.OnDragLeave(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnDragOver(System.Windows.Forms.DragEventArgs)">
+            <summary>Задает заглушка Control.OnDragOver(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnDragOverDragEventArgs">
+            <summary>Задает stub Control.OnDragOver(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnEnabledChanged(System.EventArgs)">
+            <summary>Задает заглушка Form.OnEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnEnabledChangedEventArgs">
+            <summary>Задает stub Form.OnEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnEnter(System.EventArgs)">
+            <summary>Задает заглушка Form.OnEnter(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnEnterEventArgs">
+            <summary>Задает stub Form.OnEnter(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnFontChanged(System.EventArgs)">
+            <summary>Задает заглушка Form.OnFontChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnFontChangedEventArgs">
+            <summary>Задает stub Form.OnFontChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnForeColorChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnForeColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnForeColorChangedEventArgs">
+            <summary>Задает stub Control.OnForeColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnFormClosed(System.Windows.Forms.FormClosedEventArgs)">
+            <summary>Задает заглушка Form.OnFormClosed(FormClosedEventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnFormClosedFormClosedEventArgs">
+            <summary>Задает stub Form.OnFormClosed(FormClosedEventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnFormClosing(System.Windows.Forms.FormClosingEventArgs)">
+            <summary>Задает заглушка Form.OnFormClosing(FormClosingEventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnFormClosingFormClosingEventArgs">
+            <summary>Задает stub Form.OnFormClosing(FormClosingEventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnGiveFeedback(System.Windows.Forms.GiveFeedbackEventArgs)">
+            <summary>Задает заглушка Control.OnGiveFeedback(GiveFeedbackEventArgs gfbevent)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnGiveFeedbackGiveFeedbackEventArgs">
+            <summary>Задает stub Control.OnGiveFeedback(GiveFeedbackEventArgs gfbevent)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnGotFocus(System.EventArgs)">
+            <summary>Задает заглушка Control.OnGotFocus(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnGotFocusEventArgs">
+            <summary>Задает stub Control.OnGotFocus(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnHandleCreated(System.EventArgs)">
+            <summary>Задает заглушка Form.OnHandleCreated(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnHandleCreatedEventArgs">
+            <summary>Задает stub Form.OnHandleCreated(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnHandleDestroyed(System.EventArgs)">
+            <summary>Задает заглушка Form.OnHandleDestroyed(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnHandleDestroyedEventArgs">
+            <summary>Задает stub Form.OnHandleDestroyed(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnHelpButtonClicked(System.ComponentModel.CancelEventArgs)">
+            <summary>Задает заглушка Form.OnHelpButtonClicked(CancelEventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnHelpButtonClickedCancelEventArgs">
+            <summary>Задает stub Form.OnHelpButtonClicked(CancelEventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnHelpRequested(System.Windows.Forms.HelpEventArgs)">
+            <summary>Задает заглушка Control.OnHelpRequested(HelpEventArgs hevent)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnHelpRequestedHelpEventArgs">
+            <summary>Задает stub Control.OnHelpRequested(HelpEventArgs hevent)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnImeModeChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnImeModeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnImeModeChangedEventArgs">
+            <summary>Задает stub Control.OnImeModeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnInputLanguageChanged(System.Windows.Forms.InputLanguageChangedEventArgs)">
+            <summary>Задает заглушка Form.OnInputLanguageChanged(InputLanguageChangedEventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnInputLanguageChangedInputLanguageChangedEventArgs">
+            <summary>Задает stub Form.OnInputLanguageChanged(InputLanguageChangedEventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnInputLanguageChanging(System.Windows.Forms.InputLanguageChangingEventArgs)">
+            <summary>Задает заглушка Form.OnInputLanguageChanging(InputLanguageChangingEventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnInputLanguageChangingInputLanguageChangingEventArgs">
+            <summary>Задает stub Form.OnInputLanguageChanging(InputLanguageChangingEventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnInvalidated(System.Windows.Forms.InvalidateEventArgs)">
+            <summary>Задает заглушка Control.OnInvalidated(InvalidateEventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnInvalidatedInvalidateEventArgs">
+            <summary>Задает stub Control.OnInvalidated(InvalidateEventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnKeyDown(System.Windows.Forms.KeyEventArgs)">
+            <summary>Задает заглушка Control.OnKeyDown(KeyEventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnKeyDownKeyEventArgs">
+            <summary>Задает stub Control.OnKeyDown(KeyEventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnKeyPress(System.Windows.Forms.KeyPressEventArgs)">
+            <summary>Задает заглушка Control.OnKeyPress(KeyPressEventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnKeyPressKeyPressEventArgs">
+            <summary>Задает stub Control.OnKeyPress(KeyPressEventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnKeyUp(System.Windows.Forms.KeyEventArgs)">
+            <summary>Задает заглушка Control.OnKeyUp(KeyEventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnKeyUpKeyEventArgs">
+            <summary>Задает stub Control.OnKeyUp(KeyEventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnLayout(System.Windows.Forms.LayoutEventArgs)">
+            <summary>Задает заглушка Form.OnLayout(LayoutEventArgs levent)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnLayoutLayoutEventArgs">
+            <summary>Задает stub Form.OnLayout(LayoutEventArgs levent)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnLeave(System.EventArgs)">
+            <summary>Задает заглушка Control.OnLeave(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnLeaveEventArgs">
+            <summary>Задает stub Control.OnLeave(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnLoad(System.EventArgs)">
+            <summary>Задает заглушка Form.OnLoad(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnLoadEventArgs">
+            <summary>Задает stub Form.OnLoad(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnLocationChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnLocationChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnLocationChangedEventArgs">
+            <summary>Задает stub Control.OnLocationChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnLostFocus(System.EventArgs)">
+            <summary>Задает заглушка Control.OnLostFocus(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnLostFocusEventArgs">
+            <summary>Задает stub Control.OnLostFocus(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnMarginChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnMarginChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnMarginChangedEventArgs">
+            <summary>Задает stub Control.OnMarginChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnMaximizedBoundsChanged(System.EventArgs)">
+            <summary>Задает заглушка Form.OnMaximizedBoundsChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnMaximizedBoundsChangedEventArgs">
+            <summary>Задает stub Form.OnMaximizedBoundsChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnMaximumSizeChanged(System.EventArgs)">
+            <summary>Задает заглушка Form.OnMaximumSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnMaximumSizeChangedEventArgs">
+            <summary>Задает stub Form.OnMaximumSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnMdiChildActivate(System.EventArgs)">
+            <summary>Задает заглушка Form.OnMdiChildActivate(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnMdiChildActivateEventArgs">
+            <summary>Задает stub Form.OnMdiChildActivate(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnMenuComplete(System.EventArgs)">
+            <summary>Задает заглушка Form.OnMenuComplete(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnMenuCompleteEventArgs">
+            <summary>Задает stub Form.OnMenuComplete(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnMenuStart(System.EventArgs)">
+            <summary>Задает заглушка Form.OnMenuStart(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnMenuStartEventArgs">
+            <summary>Задает stub Form.OnMenuStart(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnMinimumSizeChanged(System.EventArgs)">
+            <summary>Задает заглушка Form.OnMinimumSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnMinimumSizeChangedEventArgs">
+            <summary>Задает stub Form.OnMinimumSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnMouseCaptureChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnMouseCaptureChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnMouseCaptureChangedEventArgs">
+            <summary>Задает stub Control.OnMouseCaptureChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnMouseClick(System.Windows.Forms.MouseEventArgs)">
+            <summary>Задает заглушка Control.OnMouseClick(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnMouseClickMouseEventArgs">
+            <summary>Задает stub Control.OnMouseClick(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnMouseDoubleClick(System.Windows.Forms.MouseEventArgs)">
+            <summary>Задает заглушка Control.OnMouseDoubleClick(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnMouseDoubleClickMouseEventArgs">
+            <summary>Задает stub Control.OnMouseDoubleClick(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>Задает заглушка Control.OnMouseDown(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnMouseDownMouseEventArgs">
+            <summary>Задает stub Control.OnMouseDown(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnMouseEnter(System.EventArgs)">
+            <summary>Задает заглушка Control.OnMouseEnter(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnMouseEnterEventArgs">
+            <summary>Задает stub Control.OnMouseEnter(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnMouseHover(System.EventArgs)">
+            <summary>Задает заглушка Control.OnMouseHover(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnMouseHoverEventArgs">
+            <summary>Задает stub Control.OnMouseHover(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnMouseLeave(System.EventArgs)">
+            <summary>Задает заглушка Control.OnMouseLeave(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnMouseLeaveEventArgs">
+            <summary>Задает stub Control.OnMouseLeave(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+            <summary>Задает заглушка Control.OnMouseMove(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnMouseMoveMouseEventArgs">
+            <summary>Задает stub Control.OnMouseMove(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+            <summary>Задает заглушка Control.OnMouseUp(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnMouseUpMouseEventArgs">
+            <summary>Задает stub Control.OnMouseUp(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnMouseWheel(System.Windows.Forms.MouseEventArgs)">
+            <summary>Задает заглушка ScrollableControl.OnMouseWheel(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnMouseWheelMouseEventArgs">
+            <summary>Задает stub ScrollableControl.OnMouseWheel(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnMove(System.EventArgs)">
+            <summary>Задает заглушка Control.OnMove(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnMoveEventArgs">
+            <summary>Задает stub Control.OnMove(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnNotifyMessage(System.Windows.Forms.Message)">
+            <summary>Задает заглушка Control.OnNotifyMessage(Message m)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnNotifyMessageMessage">
+            <summary>Задает stub Control.OnNotifyMessage(Message m)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnPaddingChanged(System.EventArgs)">
+            <summary>Задает заглушка ScrollableControl.OnPaddingChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnPaddingChangedEventArgs">
+            <summary>Задает stub ScrollableControl.OnPaddingChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>Задает заглушка Form.OnPaint(PaintEventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnPaintBackground(System.Windows.Forms.PaintEventArgs)">
+            <summary>Задает заглушка ScrollableControl.OnPaintBackground(PaintEventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnPaintBackgroundPaintEventArgs">
+            <summary>Задает stub ScrollableControl.OnPaintBackground(PaintEventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnPaintPaintEventArgs">
+            <summary>Задает stub Form.OnPaint(PaintEventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnParentBackColorChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnParentBackColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnParentBackColorChangedEventArgs">
+            <summary>Задает stub Control.OnParentBackColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnParentBackgroundImageChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnParentBackgroundImageChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnParentBackgroundImageChangedEventArgs">
+            <summary>Задает stub Control.OnParentBackgroundImageChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnParentBindingContextChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnParentBindingContextChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnParentBindingContextChangedEventArgs">
+            <summary>Задает stub Control.OnParentBindingContextChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnParentChanged(System.EventArgs)">
+            <summary>Задает заглушка ContainerControl.OnParentChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnParentChangedEventArgs">
+            <summary>Задает stub ContainerControl.OnParentChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnParentCursorChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnParentCursorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnParentCursorChangedEventArgs">
+            <summary>Задает stub Control.OnParentCursorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnParentEnabledChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnParentEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnParentEnabledChangedEventArgs">
+            <summary>Задает stub Control.OnParentEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnParentFontChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnParentFontChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnParentFontChangedEventArgs">
+            <summary>Задает stub Control.OnParentFontChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnParentForeColorChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnParentForeColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnParentForeColorChangedEventArgs">
+            <summary>Задает stub Control.OnParentForeColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnParentRightToLeftChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnParentRightToLeftChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnParentRightToLeftChangedEventArgs">
+            <summary>Задает stub Control.OnParentRightToLeftChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnParentVisibleChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnParentVisibleChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnParentVisibleChangedEventArgs">
+            <summary>Задает stub Control.OnParentVisibleChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnPreviewKeyDown(System.Windows.Forms.PreviewKeyDownEventArgs)">
+            <summary>Задает заглушка Control.OnPreviewKeyDown(PreviewKeyDownEventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnPreviewKeyDownPreviewKeyDownEventArgs">
+            <summary>Задает stub Control.OnPreviewKeyDown(PreviewKeyDownEventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnPrint(System.Windows.Forms.PaintEventArgs)">
+            <summary>Задает заглушка Control.OnPrint(PaintEventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnPrintPaintEventArgs">
+            <summary>Задает stub Control.OnPrint(PaintEventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnQueryContinueDrag(System.Windows.Forms.QueryContinueDragEventArgs)">
+            <summary>Задает заглушка Control.OnQueryContinueDrag(QueryContinueDragEventArgs qcdevent)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnQueryContinueDragQueryContinueDragEventArgs">
+            <summary>Задает stub Control.OnQueryContinueDrag(QueryContinueDragEventArgs qcdevent)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnRegionChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnRegionChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnRegionChangedEventArgs">
+            <summary>Задает stub Control.OnRegionChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnResize(System.EventArgs)">
+            <summary>Задает заглушка Form.OnResize(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnResizeBegin(System.EventArgs)">
+            <summary>Задает заглушка Form.OnResizeBegin(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnResizeBeginEventArgs">
+            <summary>Задает stub Form.OnResizeBegin(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnResizeEnd(System.EventArgs)">
+            <summary>Задает заглушка Form.OnResizeEnd(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnResizeEndEventArgs">
+            <summary>Задает stub Form.OnResizeEnd(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnResizeEventArgs">
+            <summary>Задает stub Form.OnResize(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnRightToLeftChanged(System.EventArgs)">
+            <summary>Задает заглушка ScrollableControl.OnRightToLeftChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnRightToLeftChangedEventArgs">
+            <summary>Задает stub ScrollableControl.OnRightToLeftChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnRightToLeftLayoutChanged(System.EventArgs)">
+            <summary>Задает заглушка Form.OnRightToLeftLayoutChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnRightToLeftLayoutChangedEventArgs">
+            <summary>Задает stub Form.OnRightToLeftLayoutChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnScroll(System.Windows.Forms.ScrollEventArgs)">
+            <summary>Задает заглушка ScrollableControl.OnScroll(ScrollEventArgs se)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnScrollScrollEventArgs">
+            <summary>Задает stub ScrollableControl.OnScroll(ScrollEventArgs se)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnShown(System.EventArgs)">
+            <summary>Задает заглушка Form.OnShown(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnShownEventArgs">
+            <summary>Задает stub Form.OnShown(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnSizeChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnSizeChangedEventArgs">
+            <summary>Задает stub Control.OnSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnStyleChanged(System.EventArgs)">
+            <summary>Задает заглушка Form.OnStyleChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnStyleChangedEventArgs">
+            <summary>Задает stub Form.OnStyleChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnSystemColorsChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnSystemColorsChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnSystemColorsChangedEventArgs">
+            <summary>Задает stub Control.OnSystemColorsChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnTabIndexChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnTabIndexChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnTabIndexChangedEventArgs">
+            <summary>Задает stub Control.OnTabIndexChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnTabStopChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnTabStopChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnTabStopChangedEventArgs">
+            <summary>Задает stub Control.OnTabStopChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnTextChanged(System.EventArgs)">
+            <summary>Задает заглушка Form.OnTextChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnTextChangedEventArgs">
+            <summary>Задает stub Form.OnTextChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnValidated(System.EventArgs)">
+            <summary>Задает заглушка Control.OnValidated(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnValidatedEventArgs">
+            <summary>Задает stub Control.OnValidated(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnValidating(System.ComponentModel.CancelEventArgs)">
+            <summary>Задает заглушка Control.OnValidating(CancelEventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnValidatingCancelEventArgs">
+            <summary>Задает stub Control.OnValidating(CancelEventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.OnVisibleChanged(System.EventArgs)">
+            <summary>Задает заглушка Form.OnVisibleChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.OnVisibleChangedEventArgs">
+            <summary>Задает stub Form.OnVisibleChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.PreProcessMessage(System.Windows.Forms.Message@)">
+            <summary>Задает заглушка Control.PreProcessMessage(Message&amp; msg)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.PreProcessMessageMessageRef">
+            <summary>Задает stub Control.PreProcessMessage(Message&amp; msg)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.ProcessCmdKey(System.Windows.Forms.Message@,System.Windows.Forms.Keys)">
+            <summary>Задает заглушка Form.ProcessCmdKey(Message&amp; msg, Keys keyData)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.ProcessCmdKeyMessageRefKeys">
+            <summary>Задает stub Form.ProcessCmdKey(Message&amp; msg, Keys keyData)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.ProcessDialogChar(System.Char)">
+            <summary>Задает заглушка Form.ProcessDialogChar(Char charCode)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.ProcessDialogCharChar">
+            <summary>Задает stub Form.ProcessDialogChar(Char charCode)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.ProcessDialogKey(System.Windows.Forms.Keys)">
+            <summary>Задает заглушка Form.ProcessDialogKey(Keys keyData)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.ProcessDialogKeyKeys">
+            <summary>Задает stub Form.ProcessDialogKey(Keys keyData)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.ProcessKeyEventArgs(System.Windows.Forms.Message@)">
+            <summary>Задает заглушка Control.ProcessKeyEventArgs(Message&amp; m)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.ProcessKeyEventArgsMessageRef">
+            <summary>Задает stub Control.ProcessKeyEventArgs(Message&amp; m)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.ProcessKeyMessage(System.Windows.Forms.Message@)">
+            <summary>Задает заглушка Control.ProcessKeyMessage(Message&amp; m)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.ProcessKeyMessageMessageRef">
+            <summary>Задает stub Control.ProcessKeyMessage(Message&amp; m)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.ProcessKeyPreview(System.Windows.Forms.Message@)">
+            <summary>Задает заглушка Form.ProcessKeyPreview(Message&amp; m)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.ProcessKeyPreviewMessageRef">
+            <summary>Задает stub Form.ProcessKeyPreview(Message&amp; m)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.ProcessMnemonic(System.Char)">
+            <summary>Задает заглушка Form.ProcessMnemonic(Char charCode)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.ProcessMnemonicChar">
+            <summary>Задает stub Form.ProcessMnemonic(Char charCode)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.ProcessTabKey(System.Boolean)">
+            <summary>Задает заглушка Form.ProcessTabKey(Boolean forward)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.ProcessTabKeyBoolean">
+            <summary>Задает stub Form.ProcessTabKey(Boolean forward)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.Refresh">
+            <summary>Задает заглушка Control.Refresh()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.Refresh01">
+            <summary>Задает stub Control.Refresh()</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.ResetBackColor">
+            <summary>Задает заглушка Control.ResetBackColor()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.ResetBackColor01">
+            <summary>Задает stub Control.ResetBackColor()</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.ResetCursor">
+            <summary>Задает заглушка Control.ResetCursor()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.ResetCursor01">
+            <summary>Задает stub Control.ResetCursor()</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.ResetFont">
+            <summary>Задает заглушка Control.ResetFont()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.ResetFont01">
+            <summary>Задает stub Control.ResetFont()</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.ResetForeColor">
+            <summary>Задает заглушка Control.ResetForeColor()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.ResetForeColor01">
+            <summary>Задает stub Control.ResetForeColor()</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.ResetRightToLeft">
+            <summary>Задает заглушка Control.ResetRightToLeft()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.ResetRightToLeft01">
+            <summary>Задает stub Control.ResetRightToLeft()</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.ResetText">
+            <summary>Задает заглушка Control.ResetText()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.ResetText01">
+            <summary>Задает stub Control.ResetText()</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.RightToLeft">
+            <summary>Задает stub Control.get_RightToLeft()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.RightToLeftGet">
+            <summary>Задает stub Control.get_RightToLeft()</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.RightToLeftLayout">
+            <summary>Задает stub Form.get_RightToLeftLayout()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.RightToLeftLayoutGet">
+            <summary>Задает stub Form.get_RightToLeftLayout()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.RightToLeftLayoutSetBoolean">
+            <summary>Задает stub Form.set_RightToLeftLayout(Boolean value)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.RightToLeftSetRightToLeft">
+            <summary>Задает stub Control.set_RightToLeft(RightToLeft value)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.ScaleChildren">
+            <summary>Задает stub Control.get_ScaleChildren()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.ScaleChildrenGet">
+            <summary>Задает stub Control.get_ScaleChildren()</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.ScaleControl(System.Drawing.SizeF,System.Windows.Forms.BoundsSpecified)">
+            <summary>Задает заглушка Form.ScaleControl(SizeF factor, BoundsSpecified specified)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.ScaleControlSizeFBoundsSpecified">
+            <summary>Задает stub Form.ScaleControl(SizeF factor, BoundsSpecified specified)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.ScaleCore(System.Single,System.Single)">
+            <summary>Задает заглушка Form.ScaleCore(Single x, Single y)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.ScaleCoreSingleSingle">
+            <summary>Задает stub Form.ScaleCore(Single x, Single y)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.ScrollToControl(System.Windows.Forms.Control)">
+            <summary>Задает заглушка ScrollableControl.ScrollToControl(Control activeControl)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.ScrollToControlControl">
+            <summary>Задает stub ScrollableControl.ScrollToControl(Control activeControl)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.Select(System.Boolean,System.Boolean)">
+            <summary>Задает заглушка Form.Select(Boolean directed, Boolean forward)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.SelectBooleanBoolean">
+            <summary>Задает stub Form.Select(Boolean directed, Boolean forward)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.SetBoundsCore(System.Int32,System.Int32,System.Int32,System.Int32,System.Windows.Forms.BoundsSpecified)">
+            <summary>Задает заглушка Form.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.SetBoundsCoreInt32Int32Int32Int32BoundsSpecified">
+            <summary>Задает stub Form.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.SetClientSizeCore(System.Int32,System.Int32)">
+            <summary>Задает заглушка Form.SetClientSizeCore(Int32 x, Int32 y)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.SetClientSizeCoreInt32Int32">
+            <summary>Задает stub Form.SetClientSizeCore(Int32 x, Int32 y)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.SetVisibleCore(System.Boolean)">
+            <summary>Задает заглушка Form.SetVisibleCore(Boolean value)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.SetVisibleCoreBoolean">
+            <summary>Задает stub Form.SetVisibleCore(Boolean value)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.ShowFocusCues">
+            <summary>Задает stub Control.get_ShowFocusCues()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.ShowFocusCuesGet">
+            <summary>Задает stub Control.get_ShowFocusCues()</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.ShowKeyboardCues">
+            <summary>Задает stub Control.get_ShowKeyboardCues()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.ShowKeyboardCuesGet">
+            <summary>Задает stub Control.get_ShowKeyboardCues()</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.ShowWithoutActivation">
+            <summary>Задает stub Form.get_ShowWithoutActivation()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.ShowWithoutActivationGet">
+            <summary>Задает stub Form.get_ShowWithoutActivation()</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.Site">
+            <summary>Задает stub Control.get_Site()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.SiteGet">
+            <summary>Задает stub Control.get_Site()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.SiteSetISite">
+            <summary>Задает stub Control.set_Site(ISite value)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.SizeFromClientSize(System.Drawing.Size)">
+            <summary>Задает заглушка Control.SizeFromClientSize(Size clientSize)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.SizeFromClientSizeSize">
+            <summary>Задает stub Control.SizeFromClientSize(Size clientSize)</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubMainForm.Text">
+            <summary>Задает stub Form.get_Text()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.TextGet">
+            <summary>Задает stub Form.get_Text()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.TextSetString">
+            <summary>Задает stub Form.set_Text(String value)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.ToString">
+            <summary>Задает заглушка Form.ToString()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.ToString01">
+            <summary>Задает stub Form.ToString()</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.UpdateDefaultButton">
+            <summary>Задает заглушка Form.UpdateDefaultButton()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.UpdateDefaultButton01">
+            <summary>Задает stub Form.UpdateDefaultButton()</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.ValidateChildren">
+            <summary>Задает заглушка Form.ValidateChildren()</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.ValidateChildren(System.Windows.Forms.ValidationConstraints)">
+            <summary>Задает заглушка Form.ValidateChildren(ValidationConstraints validationConstraints)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.ValidateChildren01">
+            <summary>Задает stub Form.ValidateChildren()</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.ValidateChildrenValidationConstraints">
+            <summary>Задает stub Form.ValidateChildren(ValidationConstraints validationConstraints)</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubMainForm.WndProc(System.Windows.Forms.Message@)">
+            <summary>Задает заглушка Form.WndProc(Message&amp; m)</summary>
+        </member>
+        <member name="F:WF_Eatstuff.Fakes.StubMainForm.WndProcMessageRef">
+            <summary>Задает stub Form.WndProc(Message&amp; m)</summary>
+        </member>
+        <member name="T:WF_Eatstuff.Fakes.StubOrder">
+            <summary>Тип заглушки WF_Eatstuff.Order</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubOrder.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubOrder.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="M:WF_Eatstuff.Fakes.StubOrder.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubOrder</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubOrder.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:WF_Eatstuff.Fakes.StubOrder.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,12 @@
+C:\Users\Andrey\source\repos\WF_Eatstuff\.vs\FoodDispenser\lut\0\b\FoodDispenserUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Andrey\source\repos\WF_Eatstuff\.vs\FoodDispenser\lut\0\b\FoodDispenserUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Andrey\source\repos\WF_Eatstuff\.vs\FoodDispenser\lut\0\b\FoodDispenserUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Andrey\source\repos\WF_Eatstuff\.vs\FoodDispenser\lut\0\b\FoodDispenserUnitTest\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\Andrey\source\repos\WF_Eatstuff\.vs\FoodDispenser\lut\0\b\FoodDispenserUnitTest\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\Andrey\source\repos\WF_Eatstuff\.vs\FoodDispenser\lut\0\b\FoodDispenserUnitTest\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Andrey\source\repos\WF_Eatstuff\.vs\FoodDispenser\lut\0\b\FoodDispenserUnitTest\bin\Debug\FoodDispenserUnitTest.dll
+C:\Users\Andrey\source\repos\WF_Eatstuff\.vs\FoodDispenser\lut\0\b\FoodDispenserUnitTest\bin\Debug\FoodDispenserUnitTest.pdb
+C:\Users\Andrey\source\repos\WF_Eatstuff\.vs\FoodDispenser\lut\0\i\FoodDispenserUnitTest\Debug\FoodDispenserUnitTest.csproj.CoreCompileInputs.cache
+C:\Users\Andrey\source\repos\WF_Eatstuff\.vs\FoodDispenser\lut\0\i\FoodDispenserUnitTest\Debug\FoodDispenserUnitTest.csproj.CopyComplete
+C:\Users\Andrey\source\repos\WF_Eatstuff\.vs\FoodDispenser\lut\0\i\FoodDispenserUnitTest\Debug\FoodDispenserUnitTest.dll
+C:\Users\Andrey\source\repos\WF_Eatstuff\.vs\FoodDispenser\lut\0\i\FoodDispenserUnitTest\Debug\FoodDispenserUnitTest.pdb
